@@ -20,6 +20,9 @@
     flex-direction: row;
     padding: 1rem;
     justify-content: center;   
+    position: relative;
+    width: 150px;
+    
 }
 
 
@@ -29,12 +32,13 @@
     margin: .01rem;
     margin-inline-start: 0;
     padding-inline-start: 0;
-    
+    transform: translateX(-10%);
+    transform: translateY(5%);
 }
 
 .characteristicsPokemon .description .descriptionList li{
-   padding: .3rem;
-   margin-bottom: .3rem;
+   padding: .1rem;
+   margin-bottom: .1rem;
    border: #717070 solid 1px;
    border-radius: 0.5rem;
    background-color: #ff4da6;
