@@ -6,6 +6,7 @@
 body {
     background-color: #010a01;
     background-image: url(https://w.forfun.com/fetch/4a/4a245a9787bc42a3d05c50cc647751cf.jpeg)
+    align-items: center;
 }
 
  section {
@@ -18,6 +19,7 @@ body {
                 0 0 .8em .1em #ff4da6,
                 1em 1em .4em .2em #000; 
 }
+
 
 .pokedex-title {
     display: flex;
@@ -41,6 +43,22 @@ body {
     height: 100vh;
     width: 100vw;
     padding: 1rem;
+    width: fit-content;
+    block-size: fit-content;
+    justify-items: center;
+    align-items: center; 
+}
+
+@media screen and (min-width: 380px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 @media screen and (min-width: 992px) {

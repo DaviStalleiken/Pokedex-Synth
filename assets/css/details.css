@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
 }
-
 .content-details{
     
     display: grid;
@@ -24,8 +23,6 @@
     width: 150px;
     
 }
-
-
 
 .characteristicsPokemon .description .descriptionList{
     list-style: none;

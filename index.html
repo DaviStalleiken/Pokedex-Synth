@@ -19,24 +19,24 @@
 </head>
 <body>
     <!-- Hero -->
-    <section class="content">
-            <div class="pokedex-title">
-                <img src="assets/Pokedex(1).png" alt="Pokedex">
+        <section class="content">
+                <div class="pokedex-title">
+                    <img src="assets/Pokedex(1).png" alt="Pokedex">
+                </div>
+
+        <!-- Pokemon Cards -->
+            <ol id="pokemonList" class="pokemons"></ol>
+
+            <div class="pagination">
+                <button type="button" id="detailsButton">
+                    Details
+                </button>
+                
+                <button type="button" id="loadMoreButton">
+                    Load more
+                </button>
             </div>
-
-    <!-- Pokemon Cards -->
-        <ol id="pokemonList" class="pokemons"></ol>
-
-        <div class="pagination">
-            <button type="button" id="detailsButton">
-                Details
-            </button>
-            
-            <button type="button" id="loadMoreButton">
-                Load more
-            </button>
-        </div>
-    </section>
+        </section>
 
     <!-- Listagem de Pokemon -->
     <script src="assets/javascript/pokemon-model.js"></script>
