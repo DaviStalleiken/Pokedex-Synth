@@ -16,22 +16,44 @@
 
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/pokedex.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
 </head>
 <body>
     <!-- Hero -->
         <section class="content">
                 <div class="pokedex-title">
-                    <img src="assets/Pokedex(1).png" alt="Pokedex">
+                    <img src="assets/Dreamworld.png" alt="Pokedex">
+                    <img class="subtitle" src="assets/Pokedex.png" alt="Dreamworld">
                 </div>
+                
+
+        <!-- Modal Pop-up -->
+
+        <div id="popup-wrapper" class="popup-wrapper">
+            <div id="popup" class="popup">
+
+                <div class="popup-close">x</div>
+                <div class="popup-content">
+                    <div class="header-popup">
+                        <span class="name">Bulbasaur</span>
+                        <span class="number">#001</span>
+                    </div>
+                    <div class="types-popup">
+                        <ol class="types">
+                            <li class="type">grass</li>
+                            <li class="type">poison</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Pokemon Cards -->
-            <ol id="pokemonList" class="pokemons"></ol>
+        <ol id="pokemonList" class="pokemons"></ol>
 
-            <div class="pagination">
-                <button type="button" id="detailsButton">
-                    Details
-                </button>
-                
+
+        <!-- Botões de paginação -->
+            <div class="pagination">   
                 <button type="button" id="loadMoreButton">
                     Load more
                 </button>
@@ -43,5 +65,6 @@
     <script src="assets/javascript/poke-api.js"></script>
     <script src="assets/javascript/main.js"></script>
     <script src="assets/javascript/pokemon-details.js"></script>
+    <script src="assets/javascript/modal-popup.js"></script>
 </body>
 </html>

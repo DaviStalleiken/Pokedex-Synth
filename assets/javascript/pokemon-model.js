@@ -1,12 +1,14 @@
-
 class Pokemon {
     number;
     name;
     type;
     types = [];
     photo;
-    experience;
-    height;
-    weight;
-    ability = [];
+    hp;
+    attack;
+    defense;
+    specialAttack;
+    specialDefense;
+    speed;
+    total;
 }
