@@ -1,0 +1,50 @@
+ #music {
+    border:10px solid #000;
+    border-radius: 50px;
+ }
+
+ .music {
+  margin-bottom: 1.1rem;
+ }
+ 
+  audio::-webkit-media-controls-panel {
+        background-color: #c0aeae;
+  }
+
+  audio::-webkit-media-controls-current-time-display {
+    color: #09202c;
+  }
+
+  audio::-webkit-media-controls-time-remaining-display {
+    color: #410808;
+  }
+
+  
+   audio::-webkit-media-controls-mute-button {
+    background-color: #f2c8ec;
+    border-radius: 50%;
+  }
+
+  /* audio::-webkit-media-controls-play-button {
+    background-color: #d983a2;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(177,212,224, .7);
+  }
+
+  audio::-webkit-media-controls-timeline {
+    background-color: #ff4da6;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #ff4da6;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+    */

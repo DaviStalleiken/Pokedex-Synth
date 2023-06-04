@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/pokedex.css">
     <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/audio.css">
 </head>
 <body>
     <!-- Hero -->
@@ -24,8 +25,10 @@
                 <div class="pokedex-title">
                     <img src="assets/Dreamworld.png" alt="Pokedex">
                     <img class="subtitle" src="assets/Pokedex.png" alt="Dreamworld">
+                </div>   
+                <div class="music">
+                    <audio id="music" src="2 Hour Synthwave MIX - L.A. Sunset Royalty Free Copyright Safe Music.mp3" controls></audio> 
                 </div>
-                
 
         <!-- Modal Pop-up -->
 
@@ -35,7 +38,7 @@
                 <div class="popup-close">x</div>
                 <div class="popup-content">
                     <div class="header-popup">
-                        <span class="name">Bulbasaur</span>
+                        <span class="name">#</span>
                         <span class="number">#001</span>
                     </div>
                     <div class="types-popup">
@@ -47,6 +50,28 @@
                 </div>
             </div>
         </div>
+
+        <!-- <div class="pagination">   
+            <button type="button" id="gen1">
+                Kanto
+            </button>
+
+            <button type="button" id="gen2">
+                Johto
+            </button>
+
+            <button type="button" id="gen3">
+                Hoenn
+            </button>
+
+            <button type="button" id="gen4">
+                Sinnoh
+            </button>
+
+            <button type="button" id="gen5">
+                Unova
+            </button>
+        </div> -->
 
         <!-- Pokemon Cards -->
         <ol id="pokemonList" class="pokemons"></ol>

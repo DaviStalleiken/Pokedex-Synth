@@ -2,12 +2,11 @@
 const pokemonList = document.getElementById('pokemonList');
 const loadMoreButton = document.getElementById('loadMoreButton');
 const pokemonPopup = document.getElementById('popup-wrapper');
-const loadPrevious = document.getElementById('loadPrevious')
 let id = "";
 const allPokemons = []
 
 const maxRecords = 649;
-const limit = 20;
+let limit = 151;
 let offset = 0;
 
 function convertPokemonToLi(pokemon) {
@@ -73,7 +72,7 @@ function generatePokemonDetails(pokemon) {
                     <span>${pokemon.speed}</span>
                 </li>
                 <li>
-                    <span>Total</span>
+                    <span>Base Stat Total</span>
                     <span>${pokemon.total}</span>
                 </li>
             </ol>
@@ -110,6 +109,7 @@ loadMoreButton.addEventListener('click', () => {
 })
 
 loadPokemonItems(offset, limit)
+
 
 pokemonList.addEventListener('click', function (event) {
     
