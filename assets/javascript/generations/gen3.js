@@ -5,9 +5,9 @@ const pokemonPopup = document.getElementById('popup-wrapper');
 let id = "";
 const allPokemons = []
 
-const maxRecords = 649;
-let limit = 20;
-let offset = 0;
+const maxRecords = 386; 
+let limit = 30; 
+let offset = 251;   
 
 function convertPokemonToLi(pokemon) {
     return ` <li id="${pokemon.number}" class="pokemon ${pokemon.type}">

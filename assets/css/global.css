@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 
- section {
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +23,13 @@ body {
                 0 0 0 .05em #fff,
                 0 0 .8em .1em #ff4da6,
                 1em 1em .4em .2em #000; 
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 .pokedex-title {
